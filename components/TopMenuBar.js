@@ -14,29 +14,33 @@ const TopMenu = () => {
   };
 
   return (
-    <div attached='top' style={{ backgroundColor: '#1B1C1D' }}>
+    <div
+      attached='top'
+      style={{
+        backgroundColor: '#1B1C1D',
+        paddingBottom: '12px',
+        paddingTop: '12px'
+      }}
+    >
       <div className='ui center aligned container'>
         <div
-          className='ui borderless three item main menu inverted aligned'
+          className='ui borderless three item menu inverted'
           style={{
             width: '100%',
             border: 'none',
             marginTop: '0px'
           }}
         >
-          <div className='ui item'>
-            <div className='header item'>
-              <a className='item' href='#' onClick={scrollToTop}>
-                Home
-              </a>
-            </div>
-            <a className='ui item' onClick={() => scrollTo('experienceHeader')}>
-              Experience
-            </a>
-            <a className='ui item' onClick={() => scrollTo('portfolioHeader')}>
-              Portfolio
-            </a>
-          </div>
+          <a className='ui item' href='#' onClick={scrollToTop}>
+            Home
+          </a>
+
+          <a className='ui item' onClick={() => scrollTo('experienceHeader')}>
+            Experience
+          </a>
+          <a className='ui item' onClick={() => scrollTo('portfolioHeader')}>
+            Portfolio
+          </a>
         </div>
       </div>
     </div>

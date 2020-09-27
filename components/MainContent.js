@@ -6,7 +6,7 @@ const MainBody = () => {
     <div
       className='ui text container'
       name='experienceHeader'
-      style={{ marginTop: '35px' }}
+      style={{ marginTop: '72px' }}
     >
       <h2>About</h2>
       <Experience />

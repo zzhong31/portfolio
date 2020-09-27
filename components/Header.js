@@ -19,7 +19,7 @@ const Header = () => {
               </p>
               <div
                 className='ui center aligned container'
-                style={{ padding: '12px 36px 12px 18px' }}
+                style={{ padding: '12px 18px 6px 18px' }}
               >
                 <div className='ui three column grid'>
                   <div className='column'>
