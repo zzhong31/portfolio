@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div
       className='ui inverted vertical footer segment'
-      style={{ marginTop: '35px', paddingTop: '12px', paddingBottom: '12px' }}
+      style={{ marginTop: '72px', paddingTop: '12px', paddingBottom: '12px' }}
     >
       <div className='ui center aligned container'>
         <a className='item' href='mailto:zhenyuzhong001@gmail.com'>
