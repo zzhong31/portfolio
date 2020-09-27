@@ -8,25 +8,24 @@ import Footer from '../components/Footer';
 import MainContent from '../components/MainContent';
 
 export default function Home() {
-  let contextRef = useRef();
-  console.log(contextRef);
+  let contextRef = useRef(null);
+
   return (
     <div>
       <Head>
         <title>Zhenyu Zhong</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
         <link
-          rel="stylesheet"
+          rel='stylesheet'
           azxc
-          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+          href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css'
         ></link>
       </Head>
-      <div id="mainContent" ref={contextRef}>
+      <div id='mainContent' ref={contextRef}>
         <Header />
-        <Sticky>
-        <TopMenu />
+        <Sticky context={contextRef}>
+          <TopMenu />
         </Sticky>
-        <MainContent />
         <MainContent />
         <Footer />
       </div>

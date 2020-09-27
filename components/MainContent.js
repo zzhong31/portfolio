@@ -1,6 +1,9 @@
 const MainBody = () => {
   return (
-    <div className="ui text container" style={{ marginTop: '35px' }}>
+    <div className='ui text container' style={{ marginTop: '35px' }}>
+      <h1 className='ui header' name='aboutHeader'>
+        About Me
+      </h1>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -71,6 +74,9 @@ const MainBody = () => {
         volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
         luctus, metus
       </p>
+      <h1 className='ui header' name='portfolioHeader'>
+        Portfolio
+      </h1>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
