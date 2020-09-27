@@ -25,7 +25,7 @@ const Header = () => {
                   <div className='column'>
                     <a className='item' href='mailto:zhenyuzhong001@gmail.com'>
                       <i className='mail icon'></i>
-                      Email
+                      Email Me
                     </a>
                   </div>
                   <div className='column'>
