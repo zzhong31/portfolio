@@ -31,7 +31,7 @@ const TopMenu = () => {
           </div>
           <a
             className='ui right floated item'
-            onClick={() => scrollTo('aboutHeader')}
+            onClick={() => scrollTo('header')}
           >
             About
           </a>

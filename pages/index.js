@@ -22,7 +22,7 @@ export default function Home() {
         ></link>
       </Head>
       <div id='mainContent' ref={contextRef}>
-        <Header />
+        <Header name='header' />
         <Sticky context={contextRef}>
           <TopMenu />
         </Sticky>
