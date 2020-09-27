@@ -128,9 +128,8 @@ const Portfolio = () => {
               </div>
               <div className="description">
                 I made this portfolio page to have an easy way of showing what I
-                can do and what my experiences are. This was a learning exercise
-                in using NextJS compared to having a vanilla React application
-                and more of a focus on aesthetics.
+                can do and what my experiences are. This was a test with NextJS
+                in exploring server side rendering.
               </div>
 
               <div className="extra">
