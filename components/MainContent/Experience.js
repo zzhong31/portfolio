@@ -1,7 +1,9 @@
 const Experience = () => {
   return (
     <React.Fragment>
-      <h3 className='ui header'>Experience</h3>
+      <h3 className='ui header' name='experienceHeader'>
+        Experience
+      </h3>
       <div className='ui segment'>
         <div className='ui divided items'>
           <div className='item'>
@@ -56,21 +58,15 @@ const Experience = () => {
                 <span>September 2014 - May 2015</span>
               </div>
               <div className='description'>
-                At Gilead, I developed single page applications and handled the
-                entire stack. I implemented a new training assignments system
-                that streamlined the management of training curricula for both
-                new hires and existing employees. I also worked on other
-                workflow applications that integrated with our operations data.
-                Other tasks included reporting and ETL for our data feeds from
-                internal systems and provided contractor data.
+                Here, I providing insights and reporting using our clinical
+                trials data in addition to data management and mining. I focused
+                mainly on extracting and summarizing patient event profiles from
+                our clinical trials data.
               </div>
               <div className='extra'>
-                <div className='ui label'>React</div>
-                <div className='ui label'>Javascript</div>
-                <div className='ui label'>Kendo UI</div>
-                <div className='ui label'>ASP.NET</div>
-                <div className='ui label'>C#</div>
-                <div className='ui label'>MS SQL Server</div>
+                <div className='ui label'>R</div>
+                <div className='ui label'>SAS</div>
+                <div className='ui label'>SQL</div>
               </div>
             </div>
           </div>
