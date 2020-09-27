@@ -1,13 +1,11 @@
 const Experience = () => {
   return (
     <React.Fragment>
-      <h3 className='ui header' name='experienceHeader'>
-        Experience
-      </h3>
+      <h3 className='ui header'>Experience</h3>
       <div className='ui segment'>
         <div className='ui divided items'>
           <div className='item'>
-            <div class='ui tiny image'>
+            <div className='ui tiny image'>
               <img
                 style={{ border: '1px solid black' }}
                 src='/gilead_logo.jpg'
@@ -42,7 +40,7 @@ const Experience = () => {
             </div>
           </div>
           <div className='item'>
-            <div class='ui tiny image'>
+            <div className='ui tiny image'>
               <img
                 style={{ border: '1px solid black' }}
                 src='/genentech.png'

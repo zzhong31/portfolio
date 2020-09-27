@@ -3,11 +3,17 @@ import Experience from './MainContent/Experience';
 
 const MainBody = () => {
   return (
-    <div className='ui text container' style={{ marginTop: '35px' }}>
-      <h2 name='portfolioHeader'>About</h2>
+    <div
+      className='ui text container'
+      name='experienceHeader'
+      style={{ marginTop: '35px' }}
+    >
+      <h2>About</h2>
       <Experience />
       <Education />
-      <h1 className='ui header'>Portfolio</h1>
+      <h1 className='ui header' name='portfolioHeader'>
+        Portfolio
+      </h1>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
